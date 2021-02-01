@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30bb8e3eda6321548a17baf6e096c39f, type: 3}
+  m_Name: "\u54E8\u5175a"
+  m_EditorClassIdentifier: 
+  TalkerName: "\u54E8\u5175a"
+  TalkerTex: {fileID: 21300000, guid: b713181df28aa2049b20992f0f75b308, type: 3}
+  TalkerVoice: 0

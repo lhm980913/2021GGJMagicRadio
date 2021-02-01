@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5084f5a0247aefe4aae8c98197cd9cc3, type: 3}
+  m_Name: NarrationMessages
+  m_EditorClassIdentifier: 
+  NarrationMessageDatas:
+  - MessageDescription: "\u5F00\u59CB"
+    MessageTexts:
+    - MessageText: "1942\u5E74\uFF0C7\u67082\u65E5\uFF0C\u65E98:00 "
+      Talker: {fileID: 11400000, guid: 4f50b9f4f6c6c674eb21eab7c564e6d2, type: 2}
+    - MessageText: "\u65AF\u5927\u6797\u683C\u52D2\uFF0C\u5FB7\u519B\u6218\u4FD8\u8425"
+      Talker: {fileID: 11400000, guid: 4f50b9f4f6c6c674eb21eab7c564e6d2, type: 2}
+    NextMessageEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 532a80994493bb64d918800f3f1a08c0, type: 2}
+          m_MethodName: NextMessageTalk
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    EveryDay: 0
+    IsEventMessage: 0
+    BeginTime:
+      Year: 0
+      Month: 0
+      _day: 2
+      _hour: 8
+      _min: 0
+    Talked: 1
+  - MessageDescription: "\u62A5\u7EB8\u91CC\u5939\u7740\u7EB8\u6761"
+    MessageTexts:
+    - MessageText: "\uFF08\u62A5\u7EB8\u91CC\u5939\u7740\u4E00\u5C01\u4FE1\uFF09"
+      Talker: {fileID: 11400000, guid: 4f50b9f4f6c6c674eb21eab7c564e6d2, type: 2}
+    NextMessageEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 532a80994493bb64d918800f3f1a08c0, type: 2}
+          m_MethodName: getLotsOfThings
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    EveryDay: 0
+    IsEventMessage: 1
+    BeginTime:
+      Year: 1
+      Month: 0
+      _day: 1111
+      _hour: 0
+      _min: 0
+    Talked: 0
+  - MessageDescription: "\u9001\u65E9\u996D"
+    MessageTexts:
+    - MessageText: "\uFF08\u811A\u6B65\u58F0\u9010\u6E10\u63A5\u8FD1\uFF09"
+      Talker: {fileID: 11400000, guid: 4f50b9f4f6c6c674eb21eab7c564e6d2, type: 2}
+    NextMessageEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 532a80994493bb64d918800f3f1a08c0, type: 2}
+          m_MethodName: NextMessageTalk
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 2
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: 532a80994493bb64d918800f3f1a08c0, type: 2}
+          m_MethodName: songfan
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    EveryDay: 0
+    IsEventMessage: 1
+    BeginTime:
+      Year: 0
+      Month: 0
+      _day: 11
+      _hour: 0
+      _min: 0
+    Talked: 0
+  - MessageDescription: "\u7FFB\u627E"
+    MessageTexts:
+    - MessageText: "\uFF08\u5728\u5E8A\u4E0B\u7FFB\u627E\uFF09"
+      Talker: {fileID: 11400000, guid: 4f50b9f4f6c6c674eb21eab7c564e6d2, type: 2}
+    - MessageText: "\u554A\u627E\u5230\u4E86"
+      Talker: {fileID: 11400000, guid: 49c4d70192b648845a7adba648cea340, type: 2}
+    - MessageText: "\uFF08\u83B7\u5F97\u5730\u56FE\u548C\u6536\u97F3\u673A\uFF09"
+      Talker: {fileID: 11400000, guid: 4f50b9f4f6c6c674eb21eab7c564e6d2, type: 2}
+    NextMessageEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 532a80994493bb64d918800f3f1a08c0, type: 2}
+          m_MethodName: GetRadioAndMap
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 11400000, guid: 532a80994493bb64d918800f3f1a08c0, type: 2}
+          m_MethodName: GetSTHsPinDuan
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    EveryDay: 0
+    IsEventMessage: 1
+    BeginTime:
+      Year: 0
+      Month: 0
+      _day: 11
+      _hour: 0
+      _min: 0
+    Talked: 0
